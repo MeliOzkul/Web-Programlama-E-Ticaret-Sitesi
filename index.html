@@ -16,7 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.0/examples/pricing/pricing.css" rel="stylesheet">
-  </head>
+    <style>
+        .text-center {
+            text-align: center;
+                }
+    </style>
+
+</head>
 
   <body>
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -39,7 +45,7 @@
               <li>Somun ekmek</li>
               <li>200 gr</li>
             </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
+            <button type="button" id="addBread" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
           </div>
         </div>
         <div class="card mb-4 box-shadow">
@@ -52,7 +58,7 @@
                 <li>Bitter Çikolata</li>
                 <li>60 gr</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
+              <button type="button" id="addChoco" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
             </div>
           </div>
           <div class="card mb-4 box-shadow">
@@ -65,20 +71,23 @@
                 <li>Domates</li>
                 <li>Antalya Sera</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
+              <button type="button" id="addTomato" class="btn btn-lg btn-block btn-primary">Sepete Ekle</button>
             </div>
           </div>
       </div>
 
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-       
+
+      <footer>
+          <div class="justify-content-center">
+            <h8>© Fehim KÖYLÜ Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü</h8>
+          </div>
       </footer>
     </div>
 
 
-    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script>window.jQuery || 
+    document.write('<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
